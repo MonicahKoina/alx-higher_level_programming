@@ -1,7 +1,11 @@
 #!/usr/bin/node
 
-if (process.argv[2]) {
-	console.log(process.argv[2]);
-} else {
+const count = process.argv.length;
+
+if (count === 2) {
 	console.log('No argument');
+} else if (count === 3) {
+	console.log('Argument found');
+} else {
+	console.log('Arguments found');
 }
