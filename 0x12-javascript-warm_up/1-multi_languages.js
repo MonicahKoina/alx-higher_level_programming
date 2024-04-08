@@ -1,5 +1,9 @@
 #!/usr/bin/node
 
-console.log("C is fun");
-console.log("Python is cool");
-console.log("JavaScript is amazing");
+const Clang='C is fun';
+const Pylang='Python is cool';
+const JSlang='JavaScript is amazing';
+
+console.log(Clang);
+console.log(Pylang);
+console.log(JSlang);
