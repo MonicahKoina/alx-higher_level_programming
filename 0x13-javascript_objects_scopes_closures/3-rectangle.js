@@ -18,4 +18,8 @@ class Rectangle {
   }
 }
 
+<<<<<<< HEAD
 module.exports = Rectangl
+=======
+module.exports = Rectangle;
+>>>>>>> d4127cbd4176461bc3eba3910f45d0faab30a4db
